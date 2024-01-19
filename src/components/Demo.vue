@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useSummarizer } from "../composables/useSummarizer";
-import { ref, onMounted, computed } from "vue";
+import { ref, onMounted } from "vue";
 
 type article = {
   url: string;
