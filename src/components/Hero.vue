@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const handleClick = () => {
-  window.open("https://github.com/");
+  window.open("https://bitbucket.org/h_tigran/summarizer/src/main/");
 };
 </script>
 
@@ -10,7 +10,7 @@ const handleClick = () => {
       <img src="/images/logo.svg" alt="sumz_logo" class="w-28 object-contain" />
 
       <button type="button" @click="handleClick()" class="black_btn">
-        Github
+        Source
       </button>
     </nav>
 
